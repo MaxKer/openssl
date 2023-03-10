@@ -3324,6 +3324,54 @@
 #define NID_id_aa_ATSHashIndex          1272
 #define OBJ_id_aa_ATSHashIndex          OBJ_ess_attributes,5L
 
+#define SN_qc_profile           "qc-profile"
+#define NID_qc_profile          1291
+#define OBJ_qc_profile          OBJ_etsi,1862L
+
+#define SN_qcs          "qcs"
+#define NID_qcs         1292
+#define OBJ_qcs         OBJ_qc_profile,1L
+
+#define SN_QcCompliance         "QcCompliance"
+#define NID_QcCompliance                1293
+#define OBJ_QcCompliance                OBJ_qcs,1L
+
+#define SN_QcLimitValue         "QcLimitValue"
+#define NID_QcLimitValue                1294
+#define OBJ_QcLimitValue                OBJ_qcs,2L
+
+#define SN_QcRetentionPeriod            "QcRetentionPeriod"
+#define NID_QcRetentionPeriod           1295
+#define OBJ_QcRetentionPeriod           OBJ_qcs,3L
+
+#define SN_QcSSCD               "QcSSCD"
+#define NID_QcSSCD              1296
+#define OBJ_QcSSCD              OBJ_qcs,4L
+
+#define SN_QcPDS                "QcPDS"
+#define NID_QcPDS               1297
+#define OBJ_QcPDS               OBJ_qcs,5L
+
+#define SN_QcType               "QcType"
+#define NID_QcType              1298
+#define OBJ_QcType              OBJ_qcs,6L
+
+#define SN_esign                "esign"
+#define NID_esign               1299
+#define OBJ_esign               OBJ_QcType,1L
+
+#define SN_eseal                "eseal"
+#define NID_eseal               1300
+#define OBJ_eseal               OBJ_QcType,2L
+
+#define SN_web          "web"
+#define NID_web         1301
+#define OBJ_web         OBJ_QcType,3L
+
+#define SN_QcCClegislation              "QcCClegislation"
+#define NID_QcCClegislation             1302
+#define OBJ_QcCClegislation             OBJ_qcs,7L
+
 #define SN_cades                "cades"
 #define NID_cades               1273
 #define OBJ_cades               OBJ_etsi,19122L

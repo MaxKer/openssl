@@ -1288,3 +1288,15 @@ brainpoolP512r1tls13		1287
 brotli		1288
 zstd		1289
 sm4_xts		1290
+qc_profile		1291
+qcs		1292
+QcCompliance		1293
+QcLimitValue		1294
+QcRetentionPeriod		1295
+QcSSCD		1296
+QcPDS		1297
+QcType		1298
+esign		1299
+eseal		1300
+web		1301
+QcCClegislation		1302
